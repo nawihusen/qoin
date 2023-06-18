@@ -1,0 +1,22 @@
+mysql : 
+  port : "3306"
+  host: "172.28.176.1"
+  database : "qoin"
+  user : "root"
+  password : ""
+  path_migrate: file:./db/migration
+# redis :
+#   host: "localhost"
+#   port : "6379"
+#   max_connection: 80
+#   username: ""
+#   password: ""
+#   database: 0
+# static_path: "temp"
+
+server :
+  port: "8080"
+  host: "localhost"
+  base_path: "qoin"
+
+
